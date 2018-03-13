@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Manillas APP</string>
+    <string name="material_manilla">Escoger Material</string>
+    <string name="check_cuerda">Cuerda</string>
+    <string name="check_cuero">Cuero</string>
+    <string name="dijen">Escoger Dijen</string>
+    <string name="tipo_dijen">Tipo de Dijen</string>
+    <string name="material">Escoger Material</string>
+    <string name="check_martillo">Martillo</string>
+    <string name="check_ancla">Ancla</string>
+    <string name="check_oro">Oro, Oro Rosado</string>
+    <string name="check_plata">Plata</string>
+    <string name="check_niquel">Niquel</string>
+    <string name="moneda">Escoger Moneda</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="calcular">Total</string>
+    <string name="dolar">USD</string>
+    <string name="pesos">COP</string>
+    <string name="resultado" />
+    <string name="txtmostrar" />
+</resources>
