@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Manillas APP</string>
+    <string name="app_name">Bracelet APP</string>
+    <string name="check_cuerda">Rope</string>
+    <string name="check_cuero">Leather</string>
+    <string name="dijen">Choose Pendant</string>
+    <string name="tipo_dijen">Kind of Pendant</string>
+    <string name="material">Choose Material</string>
+    <string name="check_martillo">Hammer</string>
+    <string name="check_ancla">Anchor</string>
+    <string name="check_oro">Gold, Pink Gold</string>
+    <string name="check_plata">Silver</string>
+    <string name="check_niquel">Nickel</string>
+    <string name="moneda">Choose Currency</string>
+    <string name="cantidad">Quantity</string>
+    <string name="calcular">Total</string>
+    <string name="dolar">USD</string>
+    <string name="pesos">COP</string>
+    <string name="error_1">Enter the Amount</string>
+    <string name="error_2">Enter a number greater than Zero</string>
+    <string name="material_manilla">Choose Bracelet</string>
 </resources>

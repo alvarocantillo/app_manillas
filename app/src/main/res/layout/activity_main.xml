@@ -6,9 +6,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+
+    android:background="#99ccff"
     android:orientation="vertical"
-
-
     tools:context="com.example.labredes.manillas.MainActivity"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="0dp">
@@ -18,7 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/material" />
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/material"
+        android:textSize="18sp" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -31,7 +33,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:fontFamily="sans-serif-condensed"
             android:text="@string/check_cuero"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="7dp"
             tools:layout_editor_absoluteY="83dp" />
 
@@ -40,7 +44,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
             android:text="@string/check_cuerda"
+            android:textSize="16sp"
             tools:layout_editor_absoluteX="7dp"
             tools:layout_editor_absoluteY="51dp" />
     </RadioGroup>
@@ -50,7 +56,9 @@
         android:layout_width="415dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/dijen" />
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/dijen"
+        android:textSize="18sp" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -63,14 +71,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="@string/check_martillo" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/check_martillo"
+            android:textSize="16sp" />
 
         <RadioButton
             android:id="@+id/sancla"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/check_ancla" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/check_ancla"
+            android:textSize="16sp" />
     </RadioGroup>
 
     <TextView
@@ -78,7 +90,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/tipo_dijen" />
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/tipo_dijen"
+        android:textSize="18sp" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -91,21 +105,27 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="@string/check_oro" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/check_oro"
+            android:textSize="16sp" />
 
         <RadioButton
             android:id="@+id/splata"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/check_plata" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/check_plata"
+            android:textSize="16sp" />
 
         <RadioButton
             android:id="@+id/sniquel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/check_niquel" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/check_niquel"
+            android:textSize="16sp" />
     </RadioGroup>
 
     <TextView
@@ -113,7 +133,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
         android:text="@string/moneda"
+        android:textSize="18sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="216dp" />
 
@@ -128,14 +150,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
-            android:text="@string/dolar" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/dolar"
+            android:textSize="16sp" />
 
         <RadioButton
             android:id="@+id/scop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/pesos" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/pesos"
+            android:textSize="16sp" />
     </RadioGroup>
 
     <LinearLayout
@@ -149,7 +175,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/cantidad" />
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/cantidad"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/txtcantidad"
@@ -158,6 +186,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:enabled="true"
+            android:fontFamily="sans-serif-condensed"
             android:inputType="number" />
 
     </LinearLayout>
@@ -167,15 +196,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:fontFamily="sans-serif-condensed"
         android:onClick="calcular"
-        android:text="@string/calcular" />
+        android:text="@string/calcular"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/txtresultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/txtmostrar" />
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/txtmostrar"
+        android:textSize="18sp" />
 
 </LinearLayout>
 

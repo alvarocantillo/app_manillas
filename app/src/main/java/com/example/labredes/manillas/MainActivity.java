@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             resultado = 90;
             return resultado;
         }else  if (cuerdas.isChecked()&&ancla.isChecked()&&niquel.isChecked()) {
-            resultado = 50;
+            resultado = 80;
             return resultado;
         }
         {
