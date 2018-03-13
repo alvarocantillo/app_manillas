@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private RadioButton cuerdas;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private RadioButton cop;
     private Button total;
     private EditText num;
-    private EditText valor;
+    private TextView valor;
     private Resources recursos;
 
 
