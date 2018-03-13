@@ -18,4 +18,6 @@
     <string name="pesos">COP</string>
     <string name="resultado" />
     <string name="txtmostrar" />
+    <string name="error_1">Ingrese la cantidad</string>
+    <string name="error_2">Ingrese un numero mayor que cero</string>
 </resources>

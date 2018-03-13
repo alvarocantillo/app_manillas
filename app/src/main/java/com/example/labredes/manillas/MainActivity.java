@@ -1,5 +1,6 @@
 package com.example.labredes.manillas;
 
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button total;
     private EditText num;
     private EditText valor;
+    private Resources recursos;
 
 
     @Override
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         total=findViewById(R.id.stotal);
         num=findViewById(R.id.txtcantidad);
         valor=findViewById(R.id.txtresultado);
+        recursos=this.getResources();
 
 
 
@@ -89,10 +92,30 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void calcular(View V){
-        double seleccion= cotizar();
-        int canti= Integer.parseInt(num.getText().toString());
-        seleccion=seleccion*canti;
-        valor.setText(seleccion+"");
+        double seleccion= cotizar(),peso=3200;
+        if (validar()){
+            int canti= Integer.parseInt(num.getText().toString());
+            seleccion=seleccion*canti;
+            if (cop.isChecked()){
+                seleccion=seleccion*peso;
+            }
+            valor.setText(seleccion+"");
+        }
+    }
+
+    public boolean validar(){
+        if (num.getText().toString().isEmpty()){
+            num.requestFocus();
+            num.setError(recursos.getString(R.string.error_1));
+            return false;
+        }
+        if (Double.parseDouble(num.getText().toString())<1){
+            num.requestFocus();
+            num.setError(recursos.getString(R.string.error_2));
+            return false;
+        }
+
+        return true;
     }
     }
 
